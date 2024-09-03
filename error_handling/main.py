@@ -2,7 +2,7 @@ while True:
     try:
         age = int(input("How old are you?: "))
         8 / age
-        raise ValueError("hey cut it out!!!")
+        # raise ValueError("hey cut it out!!!")
     # handle exception
     # except ValueError as error:
     #     print(f"Please input a number!: {error}")
